@@ -1,0 +1,23 @@
+{
+  "name": "level-find",
+  "description": "Array.prototype.find() for LevelUPs",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "object-assign": "^4.1.0",
+    "once": "^1.4.0"
+  },
+  "devDependencies": {
+    "defence-cli": "^2.0.1",
+    "memdb": "^1.3.1",
+    "replace-require-self": "^1.1.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/level-find.js",
+  "scripts": {
+    "test": "defence -i javascript README.md | replace-require-self | node"
+  }
+}
